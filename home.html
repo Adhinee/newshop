@@ -7,22 +7,717 @@
     <title>mystore</title>
 </head>
 <body>
-<nav>
-    <ul>
-        <li><a>Home</a></li>
-        <li><a href="https://adhinee.github.io/shopputtlam/login.html">Login</a></li>
-        <li><a>Help</a></li> 
-     
-    </ul>
-</nav>
-
-    <img src="img1.jpg">
-    <img src="img2.jpg">
-    <img src="img3.jpg">
-    <img src="img4.jpg">
-    <img src="img6.jpg">
-    <img src="img7.jpg">
-
+  <div class="header">
+  <div class="container">
+  <div class="navbar">
     
+    <nav>
+    <ul id="MenuItem">
+        <li><a>Home</a></li>
+        <li><a href="login.html" style="text-decoration: none;">Login</a></li>
+        <li><a>Cart</a></li>
+        <li><a>Help</a></li> 
+    </ul>
+  </nav>
+  <img src="img1.jpg" class="menu-icon"  style="height: 20px;width:20px;" onclick="menutoggle()">
+  </div></div>
+</div>
+
+<div class="row">
+
+   <div class="box"><div class="content"><img src="img1.jpg">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+        
+      <input type="radio" id="star5" name="rate" value="5"  />
+      <label for="star5" title="text">5 stars</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 stars</label>
+      <input type="radio" id="star3" name="rate" value="3" checked/>
+      <label for="star3" title="text">3 stars</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 stars</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">star</label>
+      
+    </div></img></div>
+   <div class="box"><img src="img2.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="2star5" name="2rate" value="5"  />
+      <label for="2star5" title="text">5 stars</label>
+      <input type="radio" id="2star4" name="2rate" value="4" />
+      <label for="2star4" title="text">4 stars</label>
+      <input type="radio" id="2star3" name="2rate" value="3" checked/>
+      <label for="2star3" title="text">3 stars</label>
+      <input type="radio" id="2star2" name="2rate" value="2" />
+      <label for="2star2" title="text">2 stars</label>
+      <input type="radio" id="2star1" name="2rate" value="1" />
+      <label for="2star1" title="text">star</label>
+      
+    </div></img></div>
+   <div class="box"><img src="img3.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="3star5" name="3rate" value="5"  />
+      <label for="3star5" title="text">5 stars</label>
+      <input type="radio" id="3star4" name="3rate" value="4" />
+      <label for="3star4" title="text">4 stars</label>
+      <input type="radio" id="3star3" name="3rate" value="3" checked/>
+      <label for="3star3" title="text">3 stars</label>
+      <input type="radio" id="3star2" name="3rate" value="2" />
+      <label for="3star2" title="text">2 stars</label>
+      <input type="radio" id="3star1" name="3rate" value="1" />
+      <label for="3star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="img4.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="4star5" name="4rate" value="5"  />
+      <label for="4star5" title="text">5 stars</label>
+      <input type="radio" id="4star4" name="4rate" value="4" />
+      <label for="4star4" title="text">4 stars</label>
+      <input type="radio" id="4star3" name="4rate" value="3" checked/>
+      <label for="4star3" title="text">3 stars</label>
+      <input type="radio" id="4star2" name="4rate" value="2" />
+      <label for="4star2" title="text">2 stars</label>
+      <input type="radio" id="4star1" name="4rate" value="1" />
+      <label for="4star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="img6.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="5star5" name="5rate" value="5"  />
+      <label for="5star5" title="text">5 stars</label>
+      <input type="radio" id="5star4" name="5rate" value="4" />
+      <label for="5star4" title="text">4 stars</label>
+      <input type="radio" id="5star3" name="5rate" value="3" checked/>
+      <label for="5star3" title="text">3 stars</label>
+      <input type="radio" id="5star2" name="5rate" value="2" />
+      <label for="5star2" title="text">2 stars</label>
+      <input type="radio" id="5star1" name="5rate" value="1" />
+      <label for="5star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="img7.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="6star5" name="6rate" value="5"  />
+      <label for="6star5" title="text">5 stars</label>
+      <input type="radio" id="6star4" name="6rate" value="4" />
+      <label for="6star4" title="text">4 stars</label>
+      <input type="radio" id="6star3" name="6rate" value="3" checked/>
+      <label for="6star3" title="text">3 stars</label>
+      <input type="radio" id="6star2" name="6rate" value="2" />
+      <label for="6star2" title="text">2 stars</label>
+      <input type="radio" id="6star1" name="6rate" value="1" />
+      <label for="6star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="watch/w1.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="7star5" name="7rate" value="5"  />
+      <label for="7star5" title="text">5 stars</label>
+      <input type="radio" id="7star4" name="7rate" value="4" />
+      <label for="7star4" title="text">4 stars</label>
+      <input type="radio" id="7star3" name="7rate" value="3" checked/>
+      <label for="7star3" title="text">3 stars</label>
+      <input type="radio" id="7star2" name="7rate" value="2" />
+      <label for="7star2" title="text">2 stars</label>
+      <input type="radio" id="7star1" name="7rate" value="1" />
+      <label for="7star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="watch/w2.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="8star5" name="8rate" value="5"  />
+      <label for="8star5" title="text">5 stars</label>
+      <input type="radio" id="8star4" name="8rate" value="4" />
+      <label for="8star4" title="text">4 stars</label>
+      <input type="radio" id="8star3" name="8rate" value="3" checked/>
+      <label for="8star3" title="text">3 stars</label>
+      <input type="radio" id="8star2" name="8rate" value="2" />
+      <label for="8star2" title="text">2 stars</label>
+      <input type="radio" id="8star1" name="8rate" value="1" />
+      <label for="8star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="watch/w3.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="9star5" name="9rate" value="5"  />
+      <label for="9star5" title="text">5 stars</label>
+      <input type="radio" id="9star4" name="9rate" value="4" />
+      <label for="9star4" title="text">4 stars</label>
+      <input type="radio" id="9star3" name="9rate" value="3" checked/>
+      <label for="9star3" title="text">3 stars</label>
+      <input type="radio" id="9star2" name="9rate" value="2" />
+      <label for="9star2" title="text">2 stars</label>
+      <input type="radio" id="9star1" name="9rate" value="1" />
+      <label for="9star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="watch/w4.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="10star5" name="10rate" value="5"  />
+      <label for="10star5" title="text">5 stars</label>
+      <input type="radio" id="10star4" name="10rate" value="4" />
+      <label for="10star4" title="text">4 stars</label>
+      <input type="radio" id="10star3" name="10rate" value="3" checked/>
+      <label for="10star3" title="text">3 stars</label>
+      <input type="radio" id="10star2" name="10rate" value="2" />
+      <label for="10star2" title="text">2 stars</label>
+      <input type="radio" id="10star1" name="10rate" value="1" />
+      <label for="10star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="watch/w5.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="112star5" name="11rate" value="5"  />
+      <label for="112star5" title="text">5 stars</label>
+      <input type="radio" id="112star4" name="11rate" value="4" />
+      <label for="112star4" title="text">4 stars</label>
+      <input type="radio" id="112star3" name="11rate" value="3" checked/>
+      <label for="112star3" title="text">3 stars</label>
+      <input type="radio" id="112star2" name="11rate" value="2" />
+      <label for="112star2" title="text">2 stars</label>
+      <input type="radio" id="112star1" name="11rate" value="1" />
+      <label for="112star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="watch/w6.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="12star5" name="122rate" value="5"  />
+      <label for="12star5" title="text">5 stars</label>
+      <input type="radio" id="12star4" name="122rate" value="4" />
+      <label for="12star4" title="text">4 stars</label>
+      <input type="radio" id="12star3" name="122rate" value="3" checked/>
+      <label for="12star3" title="text">3 stars</label>
+      <input type="radio" id="12star2" name="122rate" value="2" />
+      <label for="12star2" title="text">2 stars</label>
+      <input type="radio" id="12star1" name="122rate" value="1" />
+      <label for="12star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="watch/w7.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="132star5" name="132rate" value="5"  />
+      <label for="132star5" title="text">5 stars</label>
+      <input type="radio" id="132star4" name="132rate" value="4" />
+      <label for="132star4" title="text">4 stars</label>
+      <input type="radio" id="132star3" name="132rate" value="3" checked/>
+      <label for="132star3" title="text">3 stars</label>
+      <input type="radio" id="132star2" name="132rate" value="2" />
+      <label for="132star2" title="text">2 stars</label>
+      <input type="radio" id="132star1" name="132rate" value="1" />
+      <label for="132star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="watch/w8.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="142star5" name="142rate" value="5"  />
+      <label for="142star5" title="text">5 stars</label>
+      <input type="radio" id="142star4" name="142rate" value="4" />
+      <label for="142star4" title="text">4 stars</label>
+      <input type="radio" id="142star3" name="142rate" value="3" checked/>
+      <label for="142star3" title="text">3 stars</label>
+      <input type="radio" id="2star2" name="142rate" value="2" />
+      <label for="142star2" title="text">2 stars</label>
+      <input type="radio" id="142star1" name="142rate" value="1" />
+      <label for="142star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="watch/w9.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="152star5" name="152rate" value="5"  />
+      <label for="152star5" title="text">5 stars</label>
+      <input type="radio" id="152star4" name="152rate" value="4" />
+      <label for="152star4" title="text">4 stars</label>
+      <input type="radio" id="152star3" name="152rate" value="3" checked/>
+      <label for="152star3" title="text">3 stars</label>
+      <input type="radio" id="152star2" name="152rate" value="2" />
+      <label for="152star2" title="text">2 stars</label>
+      <input type="radio" id="152star1" name="152rate" value="1" />
+      <label for="152star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="watch/w10.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="15" name="15" value="5"  />
+      <label for="15star5" title="text">5 stars</label>
+      <input type="radio" id="15" name="15" value="4" />
+      <label for="15star4" title="text">4 stars</label>
+      <input type="radio" id="15" name="15" value="3" checked/>
+      <label for="15star3" title="text">3 stars</label>
+      <input type="radio" id="15" name="15" value="2" />
+      <label for="15star2" title="text">2 stars</label>
+      <input type="radio" id="15" name="15" value="1" />
+      <label for="15star1" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s1.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="16" name="16" value="5"  />
+      <label for="16" title="text">5 stars</label>
+      <input type="radio" id="16" name="16" value="4" />
+      <label for="16" title="text">4 stars</label>
+      <input type="radio" id="16" name="16" value="3" checked/>
+      <label for="16" title="text">3 stars</label>
+      <input type="radio" id="16" name="16" value="2" />
+      <label for="16" title="text">2 stars</label>
+      <input type="radio" id="16" name="16" value="1" />
+      <label for="16" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s2.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="17" name="17" value="5"  />
+      <label for="17" title="text">5 stars</label>
+      <input type="radio" id="17" name="17" value="4" />
+      <label for="17" title="text">4 stars</label>
+      <input type="radio" id="17" name="17" value="3" checked/>
+      <label for="17" title="text">3 stars</label>
+      <input type="radio" id="17" name="17" value="2" />
+      <label for="17" title="text">2 stars</label>
+      <input type="radio" id="17" name="17" value="1" />
+      <label for="17" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s3.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="18" name="18" value="5"  />
+      <label for="18" title="text">5 stars</label>
+      <input type="radio" id="18" name="18" value="4" />
+      <label for="18" title="text">4 stars</label>
+      <input type="radio" id="18" name="18" value="3" checked/>
+      <label for="18" title="text">3 stars</label>
+      <input type="radio" id="18" name="18" value="2" />
+      <label for="18" title="text">2 stars</label>
+      <input type="radio" id="18" name="18" value="1" />
+      <label for="18" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s4.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="19" name="19" value="5"  />
+      <label for="19" title="text">5 stars</label>
+      <input type="radio" id="19" name="19" value="4" />
+      <label for="19" title="text">4 stars</label>
+      <input type="radio" id="2star3" name="19" value="3" checked/>
+      <label for="19" title="19">3 stars</label>
+      <input type="radio" id="19" name="19" value="2" />
+      <label for="19" title="text">2 stars</label>
+      <input type="radio" id="19" name="19" value="1" />
+      <label for="19" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s5.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="20" name="20" value="5"  />
+      <label for="20" title="text">5 stars</label>
+      <input type="radio" id="20" name="20" value="4" />
+      <label for="20" title="text">4 stars</label>
+      <input type="radio" id="20" name="20" value="3" checked/>
+      <label for="20" title="text">3 stars</label>
+      <input type="radio" id="20" name="20" value="2" />
+      <label for="20" title="text">2 stars</label>
+      <input type="radio" id="20" name="20" value="1" />
+      <label for="20" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s6.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="21" name="21" value="5"  />
+      <label for="21" title="text">5 stars</label>
+      <input type="radio" id="21" name="21" value="4" />
+      <label for="21" title="text">4 stars</label>
+      <input type="radio" id="21" name="21" value="3" checked/>
+      <label for="21" title="text">3 stars</label>
+      <input type="radio" id="21" name="21" value="2" />
+      <label for="21" title="text">2 stars</label>
+      <input type="radio" id="21" name="21" value="1" />
+      <label for="21" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s7.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="22" name="22" value="5"  />
+      <label for="22" title="text">5 stars</label>
+      <input type="radio" id="22" name="22" value="4" />
+      <label for="22" title="text">4 stars</label>
+      <input type="radio" id="22" name="22" value="3" checked/>
+      <label for="22" title="text">3 stars</label>
+      <input type="radio" id="22" name="22" value="2" />
+      <label for="22" title="text">2 stars</label>
+      <input type="radio" id="22" name="22" value="1" />
+      <label for="22" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s8.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="23" name="23" value="5"  />
+      <label for="23" title="text">5 stars</label>
+      <input type="radio" id="23" name="23" value="4" />
+      <label for="23" title="text">4 stars</label>
+      <input type="radio" id="23" name="23" value="3" checked/>
+      <label for="23" title="text">3 stars</label>
+      <input type="radio" id="2star2" name="23" value="2" />
+      <label for="23" title="text">2 stars</label>
+      <input type="radio" id="23" name="23" value="1" />
+      <label for="23" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s9.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="24" name="24" value="5"  />
+      <label for="24" title="text">5 stars</label>
+      <input type="radio" id="24" name="24" value="4" />
+      <label for="24" title="text">4 stars</label>
+      <input type="radio" id="24" name="24" value="3" checked/>
+      <label for="24" title="text">3 stars</label>
+      <input type="radio" id="24" name="24" value="2" />
+      <label for="24" title="text">2 stars</label>
+      <input type="radio" id="24" name="24" value="1" />
+      <label for="24" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s10.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="25" name="25" value="5"  />
+      <label for="25" title="text">5 stars</label>
+      <input type="radio" id="25" name="25" value="4" />
+      <label for="25" title="text">4 stars</label>
+      <input type="radio" id="25" name="25" value="3" checked/>
+      <label for="25" title="text">3 stars</label>
+      <input type="radio" id="25" name="25" value="2" />
+      <label for="25" title="text">2 stars</label>
+      <input type="radio" id="25" name="25" value="1" />
+      <label for="25" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s11.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="26" name="26" value="5"  />
+      <label for="26" title="text">5 stars</label>
+      <input type="radio" id="26" name="26" value="4" />
+      <label for="26" title="text">4 stars</label>
+      <input type="radio" id="26" name="26" value="3" checked/>
+      <label for="26" title="text">3 stars</label>
+      <input type="radio" id="26" name="26" value="2" />
+      <label for="26" title="text">2 stars</label>
+      <input type="radio" id="26" name="26" value="1" />
+      <label for="26" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s12.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="27" name="27" value="5"  />
+      <label for="27" title="text">5 stars</label>
+      <input type="radio" id="2star4" name="27" value="4" />
+      <label for="27" title="27">4 stars</label>
+      <input type="radio" id="27" name="27" value="3" checked/>
+      <label for="27" title="text">3 stars</label>
+      <input type="radio" id="27" name="27" value="2" />
+      <label for="27" title="text">2 stars</label>
+      <input type="radio" id="27" name="27" value="1" />
+      <label for="27" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s13.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="28" name="28" value="5"  />
+      <label for="28" title="text">5 stars</label>
+      <input type="radio" id="28" name="28" value="4" />
+      <label for="28" title="text">4 stars</label>
+      <input type="radio" id="28" name="28" value="3" checked/>
+      <label for="28" title="text">3 stars</label>
+      <input type="radio" id="28" name="28" value="2" />
+      <label for="28" title="text">2 stars</label>
+      <input type="radio" id="28" name="28" value="1" />
+      <label for="28" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s14.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="29" name="29" value="5"  />
+      <label for="29" title="text">5 stars</label>
+      <input type="radio" id="29" name="29" value="4" />
+      <label for="29" title="text">4 stars</label>
+      <input type="radio" id="29" name="29" value="3" checked/>
+      <label for="29" title="text">3 stars</label>
+      <input type="radio" id="29" name="29" value="2" />
+      <label for="29" title="text">2 stars</label>
+      <input type="radio" id="29" name="29" value="1" />
+      <label for="29" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s15.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="30" name="30" value="5"  />
+      <label for="30" title="text">5 stars</label>
+      <input type="radio" id="30" name="30" value="4" />
+      <label for="30" title="text">4 stars</label>
+      <input type="radio" id="30" name="30" value="3" checked/>
+      <label for="30" title="text">3 stars</label>
+      <input type="radio" id="30" name="30" value="2" />
+      <label for="30" title="text">2 stars</label>
+      <input type="radio" id="30" name="30" value="1" />
+      <label for="30" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="samsung/s16.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="31" name="31" value="5"  />
+      <label for="31" title="text">5 stars</label>
+      <input type="radio" id="31" name="31" value="4" />
+      <label for="31" title="text">4 stars</label>
+      <input type="radio" id="31" name="31" value="3" checked/>
+      <label for="31" title="text">3 stars</label>
+      <input type="radio" id="31" name="31" value="2" />
+      <label for="31" title="text">2 stars</label>
+      <input type="radio" id="31" name="31" value="1" />
+      <label for="31" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p1.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="312" name="312" value="5"  />
+      <label for="372" title="text">5 stars</label>
+      <input type="radio" id="322" name="232" value="4" />
+      <label for="382" title="text">4 stars</label>
+      <input type="radio" id="332" name="332" value="3" checked/>
+      <label for="362" title="text">3 stars</label>
+      <input type="radio" id="342" name="342" value="2" />
+      <label for="352" title="text">2 stars</label>
+      <input type="radio" id="352" name="352" value="1" />
+      <label for="342" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p2.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="33" name="33" value="5"  />
+      <label for="33" title="text">5 stars</label>
+      <input type="radio" id="33" name="33" value="5"  />
+      <label for="33" title="text">4 stars</label>
+      <input type="radio" id="33" name="33" value="5"  />
+      <label for="33" title="text">3 stars</label>
+      <input type="radio" id="33" name="33" value="5"  />
+      <label for="33" title="text">2 stars</label>
+      <input type="radio" id="33" name="33" value="5"  />
+      <label for="33" title="text">1 stars</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p3.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="48" name="48" value="5"  />
+      <label for="48" title="text">5 stars</label>
+      <input type="radio" id="48" name="48" value="4" />
+      <label for="48" title="text">4 stars</label>
+      <input type="radio" id="48" name="48" value="3" checked/>
+      <label for="48" title="text">3 stars</label>
+      <input type="radio" id="48" name="48" value="2" />
+      <label for="48" title="text">2 stars</label>
+      <input type="radio" id="48" name="48" value="1" />
+      <label for="48" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p4.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="47" name="47" value="5"  />
+      <label for="47" title="text">5 stars</label>
+      <input type="radio" id="47" name="47" value="4" />
+      <label for="47" title="text">4 stars</label>
+      <input type="radio" id="47" name="47" value="3" checked/>
+      <label for="47" title="text">3 stars</label>
+      <input type="radio" id="47" name="47" value="2" />
+      <label for="47" title="text">2 stars</label>
+      <input type="radio" id="47" name="47" value="1" />
+      <label for="47" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p5.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="46" name="46" value="5"  />
+      <label for="46" title="text">5 stars</label>
+      <input type="radio" id="46" name="46" value="4" />
+      <label for="46" title="text">4 stars</label>
+      <input type="radio" id="46" name="46" value="3" checked/>
+      <label for="46" title="text">3 stars</label>
+      <input type="radio" id="46" name="46" value="2" />
+      <label for="46" title="text">2 stars</label>
+      <input type="radio" id="46" name="46" value="1" />
+      <label for="46" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p6.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="45" name="45" value="5"  />
+      <label for="45" title="text">5 stars</label>
+      <input type="radio" id="45" name="45" value="4" />
+      <label for="45" title="text">4 stars</label>
+      <input type="radio" id="45" name="45" value="3" checked/>
+      <label for="45" title="text">3 stars</label>
+      <input type="radio" id="45" name="45" value="2" />
+      <label for="45" title="text">2 stars</label>
+      <input type="radio" id="45" name="45" value="1" />
+      <label for="45" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p7.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="44" name="44" value="5"  />
+      <label for="44" title="text">5 stars</label>
+      <input type="radio" id="44" name="44" value="4" />
+      <label for="44" title="text">4 stars</label>
+      <input type="radio" id="44" name="44" value="3" checked/>
+      <label for="44" title="text">3 stars</label>
+      <input type="radio" id="44" name="44" value="2" />
+      <label for="44" title="text">2 stars</label>
+      <input type="radio" id="44" name="44" value="1" />
+      <label for="44" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p8.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="43" name="43" value="5"  />
+      <label for="43" title="text">5 stars</label>
+      <input type="radio" id="43" name="43" value="4" />
+      <label for="43" title="text">4 stars</label>
+      <input type="radio" id="43" name="43" value="3" checked/>
+      <label for="43" title="text">3 stars</label>
+      <input type="radio" id="43" name="43" value="2" />
+      <label for="43" title="text">2 stars</label>
+      <input type="radio" id="43" name="43" value="1" />
+      <label for="43" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p9.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="42" name="42" value="5"  />
+      <label for="42" title="text">5 stars</label>
+      <input type="radio" id="42" name="42" value="4" />
+      <label for="42" title="text">4 stars</label>
+      <input type="radio" id="42" name="42" value="3" checked/>
+      <label for="42" title="text">3 stars</label>
+      <input type="radio" id="42" name="42" value="2" />
+      <label for="42" title="text">2 stars</label>
+      <input type="radio" id="42" name="42" value="1" />
+      <label for="42" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p10.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="41" name="41" value="5"  />
+      <label for="41" title="text">5 stars</label>
+      <input type="radio" id="41" name="41" value="4" />
+      <label for="41" title="text">4 stars</label>
+      <input type="radio" id="41" name="41" value="3" checked/>
+      <label for="41" title="text">3 stars</label>
+      <input type="radio" id="2sta41r2" name="41" value="2" />
+      <label for="41" title="text">2 stars</label>
+      <input type="radio" id="41" name="41" value="1" />
+      <label for="41" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p11.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="40" name="40" value="5"  />
+      <label for="40" title="text">5 stars</label>
+      <input type="radio" id="40" name="40" value="4" />
+      <label for="40" title="text">4 stars</label>
+      <input type="radio" id="40" name="40" value="3" checked/>
+      <label for="40" title="text">3 stars</label>
+      <input type="radio" id="40" name="40" value="2" />
+      <label for="40" title="text">2 stars</label>
+      <input type="radio" id="40" name="40" value="1" />
+      <label for="40" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p12.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="39" name="39" value="5"  />
+      <label for="39" title="text">5 stars</label>
+      <input type="radio" id="39" name="39" value="4" />
+      <label for="39" title="text">4 stars</label>
+      <input type="radio" id="39" name="39" value="3" checked/>
+      <label for="39" title="text">3 stars</label>
+      <input type="radio" id="39" name="39" value="2" />
+      <label for="39" title="text">2 stars</label>
+      <input type="radio" id="39" name="39" value="1" />
+      <label for="39" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p13.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="38" name="38" value="5"  />
+      <label for="38" title="text">5 stars</label>
+      <input type="radio" id="38" name="38" value="4" />
+      <label for="38" title="text">4 stars</label>
+      <input type="radio" id="38" name="38" value="3" checked/>
+      <label for="38" title="text">3 stars</label>
+      <input type="radio" id="38" name="38" value="2" />
+      <label for="38" title="text">2 stars</label>
+      <input type="radio" id="38" name="38" value="1" />
+      <label for="38" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p14.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="37" name="37" value="5"  />
+      <label for="37" title="text">5 stars</label>
+      <input type="radio" id="37" name="37" value="4" />
+      <label for="37" title="text">4 stars</label>
+      <input type="radio" id="37" name="37" value="3" checked/>
+      <label for="37" title="text">3 stars</label>
+      <input type="radio" id="37" name="37" value="2" />
+      <label for="37" title="text">2 stars</label>
+      <input type="radio" id="37" name="37" value="1" />
+      <label for="37" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p15.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="36" name="36" value="5"  />
+      <label for="36" title="text">5 stars</label>
+      <input type="radio" id="36" name="36" value="4" />
+      <label for="36" title="text">4 stars</label>
+      <input type="radio" id="36" name="36" value="3" checked/>
+      <label for="36" title="text">3 stars</label>
+      <input type="radio" id="36" name="36" value="2" />
+      <label for="236star2" title="text">2 stars</label>
+      <input type="radio" id="36" name="36" value="1" />
+      <label for="36" title="text">star</label>
+      </div></img></div>
+   <div class="box"><img src="apple/p16.jpg"><div class="content">
+    <p>1500$</p></div><p>wrist shoe</p>
+    <div class="rate">
+      <input type="radio" id="35" name="3535353535" value="5"  />
+      <label for="35" title="text">5 stars</label>
+      <input type="radio" id="35" name="33535355" value="4" />
+      <label for="3535353535" title="text">4 stars</label>
+      <input type="radio" id="35" name="335355" value="3" checked/>
+      <label for="35353535" title="text">3 stars</label>
+      <input type="radio" id="35" name="3355" value="2" />
+      <label for="353535" title="text">2 stars</label>
+      <input type="radio" id="35" name="35" value="1" />
+      <label for="3535" title="text">star</label>
+      </div></img></div>
+</div>
+</div>
+
+
+
+<script>
+
+var MenuItem=document.getElementById("MenuItem");
+MenuItem.style.maxHeight="0px";
+function menutoggle(){
+  if (MenuItem.style.maxHeight=="8000px"){
+    MenuItem.style.maxHeight="200px";
+  }
+  else{ MenuItem.style.maxHeight="0px"; 
+
+  }
+}
+
+</script>
 </body>
 </html> 
