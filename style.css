@@ -1,27 +1,185 @@
 body{
     background-color: rgba(41, 122, 122, 0.678);
 }
-img{
-    
-    height: 300px;
-    width:300px;
-    margin: 50px;
+input{
+    box-shadow: none;
 }
-img:hover{
-    box-shadow:-10px -10px 30px 10px rgb(2, 3, 3);
-    height:298px;
-    width:298px;
+*   { margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
+.logo{
+    cursor: pointer;
 }
-ul li {color: aliceblue;
-    display: inline;
+nav {text-align: right;
+    flex: 1;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+img{
+    border-style: groove;
+    height: 250px;
+    width: 260px;;
+    margin: 2%;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+@media only screen and (max-width: 8000px) { 
+    nav{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    .header{
+        background: #f39200;
+    }
+    .menu-icon{
+        display: flex;
+        cursor: pointer;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        -webkit-box-align: center;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+}
+img:hover { transition: all 0.3s ease-in-out;
+    height: 250px;
+    width:260px;
+    color: black;
+    
+}
+.box:active{
+    background-color: black;
+    color: aqua;
+}
+.row .box p{
+    font-size: large;
+    color: rgb(255, 255, 255);
+    
+  }
+
+.box{
+background-color: rgb(121, 127, 133);
+    flex-basis: 0%;
+    float: left;
+    border-radius: 15px;
+    height: 350px;
+    padding: 10px;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.hh img{
+    float: right;
+}
+.box :hover{
+    
+    box-shadow:10px 10px 30px 5px rgb(0, 0, 0);
+}
+.hh{
+    background-color: #34595f;
+    height: 500px;
+}
+p1{
+    color: rgb(255, 255, 255);
+    font-size:100px ;
+    float: inline-start;
+    font-family: 'Courier New', Courier, monospace;
+}
+.row{
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+ul li{   color: aliceblue;
+    background-color: rgb(59, 6, 4);
+    display: inline-flex;
     list-style-type: none;
     margin: 10px;
-    float: center;
     padding: 10px;
 }
-nav ul {display: block;
-    background-color: rgb(0, 0, 0);
-    height: 35px;
-    width: 100%;
+
+ul {position: absolute;
+    top: 0.5%;
+    right: 0%;
 }
+
+.box p{
+    font-size: large;
+    float: left;
+}
+.box .content p{float: right;
+    font-style: oblique;
+    font-size: large;
+    
+    color: #ffffff;
+}
+.rate {margin: 0px;
+    float: left;
+    
+}
+.rate:not(:checked) > input {
+    display: none;
+    position: relative;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffda08;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #f39200;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #f39200;
+}
+
+
+
+
+
+
